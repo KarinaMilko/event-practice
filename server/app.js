@@ -1,5 +1,6 @@
 const expres = require('expres');
 const { errorHandlers } = require('./middleware');
+const router = require('./routes');
 
 const app = expres(errorHandlers.errorHandler);
 
